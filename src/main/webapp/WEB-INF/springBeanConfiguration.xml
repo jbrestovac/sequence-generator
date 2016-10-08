@@ -26,7 +26,7 @@
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.postgresql.Driver" />
-		<property name="url" value="jdbc:postgres://wskcuvyujwisar:JKkuN0sDHpQK29Yo0tQoExw3nC@ec2-54-235-125-172.compute-1.amazonaws.com:5432/dckm6rcdb7nqai" />
+		<property name="url" value="jdbc:postgresql://localhost:5432/sequencesdb" />
 		<property name="username" value="postgres" />
 		<property name="password" value="0000" />
 	</bean>
