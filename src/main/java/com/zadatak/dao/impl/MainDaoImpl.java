@@ -26,7 +26,7 @@ public class MainDaoImpl implements MainDao {
 		pstmt.setString(2, password);
 		ResultSet resultSet = pstmt.executeQuery();
 		if(resultSet.next())
-		    return (resultSet.getInt(1) > 0);
+		    return true;
         else
            return false;
        }
